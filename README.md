@@ -55,8 +55,8 @@ and
 
 YouTube Tutorial:
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=B_zTxRl7yg4&
-" target><img src="http://img.youtube.com/vi/B_zTxRl7yg4&/0.jpg" 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=B_zTxRl7yg4
+" target><img src="http://img.youtube.com/vi/B_zTxRl7yg4/0.jpg" 
 alt="Remap Canoe Controller Advokaten SNES Mini" title="Click to open 'Remap Canoe Controller Tutorial' in your browser" width="360" height="240" border="10" /></a>
 
 <br>

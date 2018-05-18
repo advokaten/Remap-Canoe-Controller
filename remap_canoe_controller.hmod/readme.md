@@ -37,7 +37,7 @@ Others:
 2. Edit gamecontrollerdb.txt located in either NES or SNES folder, depending on which system you want to edit.
 ```
 
-<br>
+
 ### **Edit Nintendo Clovercon example:**
 
 If you want to swap X and Y, simply change

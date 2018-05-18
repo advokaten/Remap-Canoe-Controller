@@ -11,6 +11,8 @@ Canoe:
 Kachikachi:
 + The B and Y buttons act as A and B
 
+------
+
 - Any controller connected to the port(s) at the front of the Mini, will be recognized as Nintendo Clovercon.
 
 + You can edit gamecontrollerdb.txt before and after you install the hmod.

@@ -11,9 +11,9 @@ Canoe:
 Kachikachi:
 + The B and Y buttons act as A and B
 
-------
+Information:
 
-- Any controller connected to the port(s) at the front of the Mini, will be recognized as Nintendo Clovercon.
+- Any controller connected to the port(s) at the front of the Mini, will be recognized as a Nintendo Clovercon controller, including controllers connected via bluetooth recievers such as the 8bitdo Retro Reciever.
 
 + You can edit gamecontrollerdb.txt before and after you install the hmod.
 
@@ -21,7 +21,7 @@ Kachikachi:
 
 <br>
 
-How do I edit the inputs?
+How do I edit the inputs after installation?
 
 USB-host:
 ```
@@ -31,8 +31,8 @@ USB-host:
 
 Others:
 ```
-1. FTP to /etc/sdl2-override
-2. Edit gamecontrollerdb.txt
+1. FTP to /etc/sdl2-override.
+2. Edit gamecontrollerdb.txt located in either NES or SNES folder, depending on which system you want to edit.
 ```
 
 <br>

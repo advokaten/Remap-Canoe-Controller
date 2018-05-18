@@ -1,10 +1,17 @@
-# Remap-Canoe-Controller
+Remap Canoe Controller
 
-This hmod allows you to edit the controller inputs in Canoe.
-                  
-+ The A and B buttons are already swapped.
+This hmod allows you to edit the controller inputs used in Canoe and Kachikachi.
 
-- Any controller connected to the port(s) at the front of the Mini, will be recognized as Nintendo Clovercon.
+### Preconfigured:
+#### **Canoe:**
++ The A and B buttons are swapped.
+
+#### **Kachikachi:**
++ The B and Y buttons act as A and B.
+
+### **Information:**
+
+- Any controller connected to the port(s) at the front of the Mini, will be recognized as a Nintendo Clovercon controller, including controllers connected via bluetooth recievers such as the 8bitdo Retro Reciever.
 
 + You can edit gamecontrollerdb.txt before and after you install the hmod.
 
@@ -12,22 +19,19 @@ This hmod allows you to edit the controller inputs in Canoe.
 
 <br>
 
-How do I edit the inputs?
+### **How do I edit the inputs after installation?**
 
-USB-host:
-```
+#### **USB-host:**
 1. Go to usb:/hakchi/canoecontrollerconfig
 2. Edit gamecontrollerdb.txt
-```
 
-Others:
-```
-1. FTP to /etc/sdl2-override
-2. Edit gamecontrollerdb.txt
-```
+#### **Others:**
+1. FTP to /etc/sdl2-override.
+2. Edit gamecontrollerdb.txt located in either NES or SNES folder, depending on which system you want to edit.
 
 <br>
-Edit Nintendo Clovercon example:
+
+### **Edit Nintendo Clovercon example:**
 
 If you want to swap X and Y, simply change
 
@@ -41,7 +45,7 @@ y:b2,x:b3
 
 <br>
 
-Installs to:                                          
+### **Installs to:**
 
 ```
 /etc/preinit.d                                        
@@ -52,7 +56,6 @@ and
 ```
 
 <br>
-
 YouTube Tutorial:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=B_zTxRl7yg4
@@ -61,9 +64,7 @@ alt="Remap Canoe Controller Advokaten SNES Mini" title="Click to open 'Remap Can
 
 <br>
 Thanks to:
-
 madmonkey
-
 DanTheMan827
-
 swingflip
+bslenul

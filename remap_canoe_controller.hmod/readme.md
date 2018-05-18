@@ -3,15 +3,17 @@ Name: Remap Canoe Controller
 Creator: Advokaten
 Category: Controller
 -----------------------
-This hmod allows you to edit the controller inputs in Canoe and Kachikachi.
 
-Canoe:
+Allows you to edit the controller inputs used in Canoe and Kachikachi.
+
+### Preconfigured:
+#### **Canoe:**
 + The A and B buttons are swapped.
 
-Kachikachi:
-+ The B and Y buttons act as A and B
+#### **Kachikachi:**
++ The B and Y buttons act as A and B.
 
-Information:
+### **Information:**
 
 - Any controller connected to the port(s) at the front of the Mini, will be recognized as a Nintendo Clovercon controller, including controllers connected via bluetooth recievers such as the 8bitdo Retro Reciever.
 
@@ -21,7 +23,7 @@ Information:
 
 <br>
 
-How do I edit the inputs after installation?
+### **How do I edit the inputs after installation?**
 
 USB-host:
 ```
@@ -36,7 +38,7 @@ Others:
 ```
 
 <br>
-Edit Nintendo Clovercon example:
+### **Edit Nintendo Clovercon example:**
 
 If you want to swap X and Y, simply change
 

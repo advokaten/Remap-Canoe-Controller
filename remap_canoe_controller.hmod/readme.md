@@ -33,6 +33,7 @@ This hmod allows you to edit the controller inputs used in Canoe and Kachikachi.
 1. FTP to /etc/sdl2-override.
 2. Edit gamecontrollerdb.txt located in either NES or SNES folder, depending on which system you want to edit.
 
+<br>
 
 ### **Edit Nintendo Clovercon example:**
 
@@ -59,7 +60,6 @@ and
 ```
 
 <br>
-
 YouTube Tutorial:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=B_zTxRl7yg4
@@ -68,11 +68,7 @@ alt="Remap Canoe Controller Advokaten SNES Mini" title="Click to open 'Remap Can
 
 <br>
 Thanks to:
-
 madmonkey
-
 DanTheMan827
-
 swingflip
-
 bslenul

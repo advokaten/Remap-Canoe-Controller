@@ -8,7 +8,7 @@ local sdl2path2="${sdl2path0}-override"
 if [ -d "$sdl2path1" ]; then
   mount_bind "$sdl2path1" "$sdl2path0"
 else
-  copy "$sdl2path2/" "$sdl2path1/"
+  copy "${sdl2path0}-override/" "$sdl2path1/"
   mount_bind "$sdl2path2" "$sdl2path0"
 fi
 

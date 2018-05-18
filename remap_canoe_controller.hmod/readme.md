@@ -4,7 +4,7 @@ Creator: Advokaten
 Category: Controller
 -----------------------
 
-Allows you to edit the controller inputs used in Canoe and Kachikachi.
+This hmod allows you to edit the controller inputs used in Canoe and Kachikachi.
 
 ### Preconfigured:
 #### **Canoe:**
@@ -25,17 +25,13 @@ Allows you to edit the controller inputs used in Canoe and Kachikachi.
 
 ### **How do I edit the inputs after installation?**
 
-USB-host:
-```
+#### **USB-host:**
 1. Go to usb:/hakchi/canoecontrollerconfig
 2. Edit gamecontrollerdb.txt
-```
 
-Others:
-```
+#### **Others:**
 1. FTP to /etc/sdl2-override.
 2. Edit gamecontrollerdb.txt located in either NES or SNES folder, depending on which system you want to edit.
-```
 
 
 ### **Edit Nintendo Clovercon example:**
@@ -52,7 +48,7 @@ y:b2,x:b3
 
 <br>
 
-Installs to:                                          
+### **Installs to:**
 
 ```
 /etc/preinit.d                                        

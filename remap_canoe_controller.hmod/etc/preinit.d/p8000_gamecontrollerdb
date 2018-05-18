@@ -1,16 +1,17 @@
 local sdl2path0="$mountpoint/etc/sdl2"
+
 local sdl2path1="$mountpoint/media/$modname/canoecontrollerconfig"
 local sdl2path2="${sdl2path0}-override"
+[ ! "$sftype" == "snes" ] && [ -d "$sdl2path1/nes" ] && local sdl2path1="${sdl2path1}/nes"
+[ ! "$sftype" == "snes" ] && [ -d "$sdl2path2/nes" ] && local sdl2path2="${sdl2path2}/nes"
 
 if [ -d "$sdl2path1" ]; then
   mount_bind "$sdl2path1" "$sdl2path0"
-
 else
-  copy "$sdl2path2/" "$sdl2path1/"
+  copy "${sdl2path0}-override/" "$sdl2path1/"
   mount_bind "$sdl2path2" "$sdl2path0"
 fi
 
 unset sdl2path0
 unset sdl2path1
 unset sdl2path2
-

@@ -1,5 +1,3 @@
-Remap Canoe Controller
-
 This hmod allows you to edit the controller inputs used in Canoe and Kachikachi.
 
 ### Preconfigured:

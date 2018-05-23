@@ -68,7 +68,11 @@ alt="Remap Canoe Controller Advokaten SNES Mini" title="Click to open 'Remap Can
 
 <br>
 Thanks to:
+
 madmonkey
+
 DanTheMan827
+
 swingflip
+
 bslenul
